@@ -7,12 +7,12 @@
     "hideFromGUIs": true,
     "accessibilityModMemory": false,
     "enableAccessibilityPlugin": false,
-    "fluidMode": "ANY",
+    "fluidMode": "SOURCE_ONLY",
     "perspectiveMode": "CAMERA",
-    "extendedReach": 0.0,
+    "extendedReach": 2.0,
     "debug": false,
     "displayBosses": true,
-    "displayMode": "TOGGLE",
+    "displayMode": "LITE",
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
     "previewOverlay": true,
@@ -21,8 +21,8 @@
     "displayEntities": true
   },
   "overlay": {
-    "alpha": 0.7,
-    "iconMode": "TOP",
+    "alpha": 0.6,
+    "iconMode": "INLINE",
     "animation": true,
     "disappearingDelay": 0.0,
     "overlaySquare": false,
@@ -31,9 +31,9 @@
     "overlayScale": 1.0,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
-    "activeTheme": "jade:dark",
+    "activeTheme": "jade:create",
     "overlayPosX": 0.5,
-    "overlayPosY": 1.0
+    "overlayPosY": 0.96094704
   },
   "formatting": {
     "itemModNameStyle": {

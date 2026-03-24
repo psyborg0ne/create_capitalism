@@ -1,0 +1,17 @@
+.mixin.out/
+coremods/
+crash-reports/
+downloads/
+local/
+logs/
+mods/
+saves/
+!saves/New World/datapacks/
+!saves/New World/serverconfig/
+screenshots/
+xaero/
+XaeroWaypoints*/
+
+command_history.txt
+usernamecache.json
+usercache.json

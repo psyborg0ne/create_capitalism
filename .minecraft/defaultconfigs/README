@@ -1,0 +1,19 @@
+When you change a setting in the regular /config folder, those changes usually only apply to the instance (the local game). However, some mods have "Server Configs"—settings that dictate how a specific world works (like starting health, ore spawn rates, or chunk loading rules).
+
+    The Problem: Standard server configs are stored inside the /saves/world_name/serverconfig folder. This makes it impossible to ship those settings in a modpack because your users haven't created a "world" folder yet!
+
+    The Solution: You put those specific .toml files into /defaultconfigs. When a player creates a new world, Forge automatically copies everything from /defaultconfigs into that new world’s serverconfig folder.
+
+How to use it correctly
+
+If you are tweaking a mod and notice the config file isn't in the main /config folder:
+
+    Launch your game and create a temporary world.
+
+    Go to saves/[WorldName]/serverconfig.
+
+    Edit the .toml files there to your liking.
+
+    Copy those edited files into the root /defaultconfigs folder of your PolyMC instance.
+
+Now, every time someone starts a new save with your modpack, they will have your custom balance changes applied automatically.

@@ -1,17 +1,54 @@
-.mixin.out/
-coremods/
-crash-reports/
-downloads/
-local/
-logs/
-mods/
-saves/
-!saves/New World/datapacks/
-!saves/New World/serverconfig/
-screenshots/
-xaero/
-XaeroWaypoints*/
+.minecraft/.mixin.out
+.minecraft/.probe
+.minecraft/.vscode
+
+# Configs
+.minecraft/config/spark/tmp
+.minecraft/config/spark/tmp-client
+.minecraft/config/sodium-fingerprint.json
+
+.minecraft/coremods/
+.minecraft/crash-reports/
+
+# Default configs
+#.minecraft//defaultconfigs/
+
+.minecraft/downloads/
+
+# KubeJS
+.minecraft/kubejs/assets/kubejs/textures/block/example_block.png
+
+.minecraft/local/
+.minecraft/logs/
+.minecraft/mods/*
+#!.minecraft/mods/.index
+
+# Save directories
+.minecraft/saves/**/advancements
+.minecraft/saves/**/stats
+.minecraft/saves/**/playerdata
+.minecraft/saves/**/computercraft
+.minecraft/saves/**/data
+.minecraft/saves/**/serverconfig
+
+.minecraft/saves/**/*.png
+.minecraft/saves/**/*.nbt
+.minecraft/saves/**/*.dat*
+.minecraft/saves/**/*.mca
+.minecraft/saves/**/*.lock
+
+.minecraft/screenshots/
+.minecraft/resourcepacks
+.minecraft/server-resource-packs
+.minecraft/shaderpacks
+.minecraft/texturepacks
+
+# Xaero's world map
+./minecraft/xaero
+XaeroWaypoints*
 
 command_history.txt
 usernamecache.json
 usercache.json
+
+*.snbt

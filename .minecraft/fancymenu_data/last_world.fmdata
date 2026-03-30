@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = /home/orfeas/.local/share/PolyMC/instances/My Modpack (Neo)/.minecraft/saves/New World
-}
-

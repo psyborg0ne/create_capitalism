@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "centralized_system"
+	group: ""
+	id: "79361BE8447DCBA4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

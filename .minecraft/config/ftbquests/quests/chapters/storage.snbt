@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "36F2DD000EA1F5F6"
+	icon: {
+		id: "ae2:item_storage_cell_1k"
+	}
+	id: "32C3887D3F13374F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "29EA1433754B5F26"
+		tasks: [{
+			id: "67B8949BB7918386"
+			item: { count: 1, id: "ae2:chest" }
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automation"
+	group: ""
+	id: "67A22639E2171D3B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

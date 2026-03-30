@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "4CFB62E4A8B19EEE"
+	id: "253D1E7848867313"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "24BDD6D29F56E054"
+			tasks: [{
+				id: "5AC39F269D0231A4"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "1F15E47AF96191A7"
+			tasks: [{
+				count: 2L
+				id: "373C56060C6BDB91"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "6D125E2B9716AD73"
+			tasks: [{
+				count: 16L
+				id: "41A2ABAC345075BE"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+}

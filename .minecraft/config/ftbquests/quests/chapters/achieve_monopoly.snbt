@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "achieve_monopoly"
+	group: ""
+	id: "6E6C01CF9F855F61"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

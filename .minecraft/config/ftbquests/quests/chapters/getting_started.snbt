@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "4E0559784AA04362"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "302BFCF75B4F4D90"
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "0D42B9CB817DDE8D"
+				item: { count: 1, id: "minecraft:oak_log" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "66826B9BD3D4EFC7"
+			tasks: [
+				{
+					count: 64L
+					id: "5860CFB455DF04D9"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					id: "28E386600A8D4740"
+					item: { count: 1, id: "minecraft:stone_sword" }
+					type: "item"
+				}
+				{
+					id: "167E275A002B200F"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "70B1D9C1F0004C65"
+					item: { count: 1, id: "minecraft:stone_shovel" }
+					type: "item"
+				}
+				{
+					id: "224B4808A476FF67"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+}

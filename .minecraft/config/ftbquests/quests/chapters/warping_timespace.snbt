@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "warping_timespace"
+	group: "36F2DD000EA1F5F6"
+	id: "1D49B58EF5E26FD3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "3EBBB7FA147BB70A"
+		tasks: [
+			{
+				id: "23A5748C044B5F99"
+				item: { count: 1, id: "ae2:spatial_io_port" }
+				type: "item"
+			}
+			{
+				count: 6L
+				id: "4C70DDDFD3395520"
+				item: { count: 1, id: "ae2:spatial_pylon" }
+				type: "item"
+			}
+		]
+		x: -1.0d
+		y: 0.0d
+	}]
+}

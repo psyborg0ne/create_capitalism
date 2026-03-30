@@ -53,7 +53,7 @@
 		
 		# Chunk grid overlay in large map
 		# Default: false
-		chunk_grid: false
+		chunk_grid: true
 		
 		# Claim mode for the chunk claiming screen
 		# Default: "freehand"
@@ -124,11 +124,11 @@
 		
 		# Adds NWSE compass inside minimap
 		# Default: true
-		compass: true
+		compass: false
 		
 		# Enable minimap
-		# Default: false
-		enabled: false
+		# Default: true
+		enabled: true
 		
 		# Show entities on minimap
 		# Default: true
@@ -137,7 +137,44 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"quark:toretoise": true
+			"minecraft:bogged": true
+			"minecraft:cod": false
+			"minecraft:sheep": true
+			"minecraft:chicken": true
+			"minecraft:fox": true
+			"minecraft:goat": true
+			"minecraft:skeleton": true
+			"quark:stoneling": true
+			"minecraft:zombie_villager": true
+			"quark:forgotten": true
+			"minecraft:bat": true
+			"minecraft:zombie": true
+			"minecraft:axolotl": true
+			"minecraft:horse": true
+			"minecraft:glow_squid": true
+			"minecraft:spider": true
+			"minecraft:cow": true
+			"minecraft:rabbit": true
+			"minecraft:witch": true
+			"minecraft:enderman": true
+			"minecraft:drowned": true
+			"minecraft:iron_golem": true
+			"minecraft:squid": true
+			"minecraft:bee": true
+			"minecraft:villager": true
+			"minecraft:dolphin": true
+			"minecraft:frog": true
+			"minecraft:ocelot": true
+			"minecraft:salmon": false
+			"minecraft:cat": true
+			"minecraft:pig": true
+			"minecraft:creeper": true
+			"minecraft:wolf": true
+			"quark:shiba": true
+			"minecraft:parrot": true
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
@@ -147,7 +184,6 @@
 		# Info hidden under minimap
 		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
 		info_hidden: [
-			"ftbchunks:fps"
 			"ftbchunks:game_time"
 			"ftbchunks:real_time"
 			"ftbchunks:debug"
@@ -157,14 +193,17 @@
 		# Default: ["ftbchunks:player_pos", "ftbchunks:biome", "ftbchunks:zone", "ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
 		info_order: [
 			"ftbchunks:player_pos"
+			"ftbchunks:fps"
 			"ftbchunks:biome"
 			"ftbchunks:zone"
-			"ftbchunks:fps"
 			"ftbchunks:game_time"
 			"ftbchunks:real_time"
 			"ftbchunks:debug"
 		]
-		info_settings: { }
+		info_settings: {
+			"ftbchunks:zone": "JUST_CLAIMED"
+			"ftbchunks:game_time": "TWENTY_FOUR"
+		}
 		
 		# Entities in minimap will be larger
 		# Default: false
@@ -228,7 +267,7 @@
 		
 		# Draw a square minimap instead of a circular one
 		# Default: false
-		square: false
+		square: true
 		
 		# Show text above minimap
 		# Default: false
@@ -237,7 +276,7 @@
 		# Minimap visibility
 		# Default: 255
 		# Range: 0 ~ 255
-		visibility: 255
+		visibility: 200
 		
 		# Show waypoints on minimap
 		# Default: true
@@ -252,7 +291,7 @@
 		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
 		# Default: 0
 		# Range: 0 ~ 2147483647
-		death_waypoint_autoremove_distance: 0
+		death_waypoint_autoremove_distance: 8
 		
 		# Enables creation of death waypoints
 		# Default: true

@@ -9,7 +9,7 @@
 		
 		# Default: "toast"
 		# Valid values: "toast", "chat", "action_bar", "none"
-		reward_style: "toast"
+		reward_style: "chat"
 	}
 	pinned: {
 		# Default: "chapter"

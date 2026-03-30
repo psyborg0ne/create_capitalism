@@ -1,0 +1,193 @@
+{
+  "favorites": [
+    {
+      "stack": "item:ae2:basic_card"
+    },
+    {
+      "stack": "item:ae2:advanced_card"
+    },
+    {
+      "stack": "item:advanced_ae:quantum_upgrade_base"
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:cooked_porkchop",
+    "item:create:encased_fan",
+    "item:create_connected:fan_blasting_catalyst",
+    "item:create:precision_mechanism",
+    "item:create:deployer",
+    "item:create:raw_zinc_block",
+    "item:create:raw_zinc",
+    "item:create:deepslate_zinc_ore",
+    "item:create:zinc_ore",
+    [
+      "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:breach\":1}}}",
+      "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:breach\":2}}}",
+      "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:breach\":3}}}",
+      "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:breach\":4}}}"
+    ],
+    "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:sharpness\":5}}}",
+    "item:numismatics:sprocket",
+    "item:computercraft:computer_normal",
+    "item:ccbr:basic_integrated_circuit",
+    "item:ae2:cable_anchor",
+    {
+      "type": "item",
+      "id": "create:brass_casing",
+      "amount": 7
+    },
+    "item:ae2:pattern_provider",
+    "item:minecraft:oak_planks",
+    "item:ae2:molecular_assembler",
+    "item:ae2:crafting_unit",
+    "item:advanced_ae:quantum_unit",
+    "item:ae2:crafting_terminal",
+    "item:ae2:calculation_processor_press",
+    "item:ae2:crafting_accelerator",
+    "item:ae2:printed_logic_processor",
+    "item:ae2:printed_engineering_processor",
+    "item:ae2:calculation_processor",
+    "item:ae2:inscriber",
+    "item:ae2:silicon_press",
+    "item:ae2:printed_silicon",
+    "item:ae2:logic_processor",
+    "item:ae2:annihilation_core",
+    "item:ae2:charged_certus_quartz_crystal",
+    "item:ae2:energy_acceptor",
+    "item:ae2:vibration_chamber",
+    "item:advanced_ae:reaction_chamber",
+    "item:ae2:quartz_glass",
+    "item:ae2:semi_dark_monitor",
+    "item:ae2:monitor",
+    "#item:ae2:illuminated_panel",
+    "item:ae2:terminal",
+    "item:ae2:chest",
+    {
+      "type": "item",
+      "id": "createaddition:large_connector",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "createaddition:electrum_rod",
+      "amount": 2
+    },
+    "item:createaddition:rolling_mill",
+    "item:create:copper_sheet",
+    "item:createaddition:tesla_coil",
+    "item:minecraft:sandstone",
+    "item:minecraft:sand",
+    "item:createsifter:dust",
+    "item:ae2:certus_quartz_dust",
+    "item:advanced_ae:quantum_processor",
+    "item:ae2:formation_core",
+    "item:ae2:advanced_card",
+    "item:ae2:basic_card",
+    "item:ae2importexportcard:import_card",
+    "item:advanced_ae:advanced_io_bus_part",
+    "item:ae2:fluix_dust",
+    "item:ae2:interface",
+    "item:ae2:cable_interface",
+    "item:ftbfiltersystem:smart_filter",
+    "#item:ae2:interface",
+    "item:ae2:storage_bus",
+    "item:ae2:import_bus",
+    "item:ae2:export_bus",
+    "item:ae2:inverted_toggle_bus",
+    "item:ae2:toggle_bus",
+    "item:advanced_ae:stock_export_bus_part",
+    "item:advanced_ae:import_export_bus_part",
+    "item:ae2:singularity",
+    {
+      "type": "item",
+      "id": "ae2:matter_ball",
+      "amount": 64
+    },
+    "item:advanced_ae:printed_quantum_processor",
+    "item:advanced_ae:quantum_alloy",
+    "item:minecraft:andesite",
+    "item:minecraft:andesite_slab",
+    "#item:create:sleepers",
+    "item:create:large_cogwheel",
+    "item:ae2:silicon",
+    "item:create:gearbox",
+    "item:create:wrench",
+    "item:create:shaft",
+    "item:advanced_ae:quantum_processor_press",
+    "item:advanced_ae:quantum_helmet",
+    "item:advanced_ae:quantum_boots{\"ae2:stored_energy\":2.0E8d}",
+    "item:advanced_ae:shattered_singularity",
+    "item:appliedcreate:advanced_stress_processor",
+    "item:appliedcreate:stress_processor",
+    "item:ae2:printed_calculation_processor",
+    "item:escalated:wooden_walkway_steps",
+    {
+      "type": "item",
+      "id": "escalated:metal_walkway_steps",
+      "amount": 64
+    },
+    "item:quark:ender_watcher",
+    {
+      "type": "item",
+      "id": "createoreexcavation:raw_redstone",
+      "amount": 2
+    },
+    "item:createoreexcavation:netherite_drill",
+    "item:createoreexcavation:drilling_machine",
+    "item:minecraft:dragon_head",
+    "item:minecraft:player_head",
+    "item:create_factory_logistics:fluid_mechanism",
+    "item:create:mechanical_press",
+    "item:ae2:engineering_processor",
+    "item:quark:feeding_trough",
+    "item:ftbquests:screen_7",
+    "item:minecraft:gravel",
+    "item:create:chocolate_bucket",
+    {
+      "type": "fluid",
+      "id": "create:chocolate",
+      "amount": 0
+    },
+    "item:create:brass_ingot",
+    "item:create:brass_nugget",
+    "item:computercraft:computer_advanced",
+    "item:sophisticatedstorage:iron_chest{\"sophisticatedcore:accent_color\":-425955,\"sophisticatedcore:main_color\":-425955}",
+    "item:minecraft:beacon",
+    "item:minecraft:crafting_table",
+    "item:minecraft:villager_spawn_egg",
+    "item:minecraft:nether_star"
+  ],
+  "craft_history": [
+    "minecraft:oak_planks",
+    "create_connected:crafting/kinetics/item_silo_from_conversion",
+    "create:crafting/kinetics/vertical_gearbox_from_conversion"
+  ],
+  "recipe_defaults": {
+    "added": [
+      "minecraft:crafting_table"
+    ],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": [
+    "biome:ae2:spatial_storage",
+    "biome:minecraft:small_end_islands",
+    "biome:minecraft:old_growth_birch_forest",
+    "biome:minecraft:old_growth_pine_taiga",
+    "biome:minecraft:lush_caves",
+    "biome:minecraft:lukewarm_ocean",
+    "biome:minecraft:frozen_peaks",
+    "biome:minecraft:frozen_river",
+    "biome:quark:glimmering_weald",
+    "biome:minecraft:grove",
+    "biome:minecraft:ice_spikes",
+    "biome:minecraft:jagged_peaks",
+    "biome:minecraft:jungle",
+    "biome:minecraft:ocean",
+    "biome:minecraft:nether_wastes",
+    "biome:minecraft:mushroom_fields",
+    "biome:minecraft:meadow",
+    "biome:minecraft:mangrove_swamp"
+  ]
+}

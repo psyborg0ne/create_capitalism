@@ -6,6 +6,7 @@
 .minecraft/config/spark/tmp
 .minecraft/config/spark/tmp-client
 .minecraft/config/sodium-fingerprint.json
+.minecraft/config/xaeropatreon.txt
 
 .minecraft/coremods/
 .minecraft/crash-reports/
@@ -17,6 +18,7 @@
 
 # KubeJS
 .minecraft/kubejs/assets/kubejs/textures/block/example_block.png
+.minecraft/kubejs/config/probe-settings.json
 
 .minecraft/local/
 .minecraft/logs/
@@ -32,12 +34,15 @@
 .minecraft/saves/**/serverconfig
 .minecraft/saves/**/ftbquests
 .minecraft/saves/**/ftbchunks
+.minecraft/saves/**/ftbteams/player/*.snbt
+.minecraft/saves/**/ftbteams/ftbteams.snbt
 
 .minecraft/saves/**/*.png
 .minecraft/saves/**/*.nbt
 .minecraft/saves/**/*.dat*
 .minecraft/saves/**/*.mca
 .minecraft/saves/**/*.lock
+.minecraft/saves/**/xaeromap.txt
 
 .minecraft/screenshots/
 .minecraft/resourcepacks
@@ -46,7 +51,7 @@
 .minecraft/texturepacks
 
 # Xaero's world map
-./minecraft/xaero
+.minecraft/xaero/world-map
 XaeroWaypoints*
 
 command_history.txt

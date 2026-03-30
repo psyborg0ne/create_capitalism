@@ -30,6 +30,8 @@
 .minecraft/saves/**/computercraft
 .minecraft/saves/**/data
 .minecraft/saves/**/serverconfig
+.minecraft/saves/**/ftbquests
+.minecraft/saves/**/ftbchunks
 
 .minecraft/saves/**/*.png
 .minecraft/saves/**/*.nbt
@@ -50,5 +52,3 @@ XaeroWaypoints*
 command_history.txt
 usernamecache.json
 usercache.json
-
-*.snbt

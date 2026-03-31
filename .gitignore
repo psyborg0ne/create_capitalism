@@ -57,3 +57,8 @@ XaeroWaypoints*
 command_history.txt
 usernamecache.json
 usercache.json
+
+.minecraft/defaultconfigs/biolith/general.json
+.minecraft/config/ae2webintegration/griddata.json
+.minecraft/config/ae2webintegration/webdata.json
+.minecraft/.gitignore

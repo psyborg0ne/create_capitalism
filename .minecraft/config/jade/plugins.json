@@ -6,8 +6,8 @@
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "energy_storage.style": "PROGRESS_BAR",
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,6 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -72,11 +75,13 @@
   "ftbquests": {
     "barrier": true
   },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
   "createsifter": {
     "data": true
-  },
-  "jademoddedentities": {
-    "villager": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -89,6 +94,13 @@
     "block_properties": false,
     "mod_name": true
   },
+  "gravestone": {
+    "grave": true
+  },
+  "appliedcreate": {
+    "grid_node_state": true,
+    "power_storage": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -100,26 +112,5 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
-  "gravestone": {
-    "grave": true
-  },
-  "appliedcreate": {
-    "grid_node_state": true,
-    "power_storage": true
-  },
-  "storagedrawers": {
-    "display.stacklimit": true,
-    "main": true,
-    "display.content": true,
-    "display.status": true
   }
 }

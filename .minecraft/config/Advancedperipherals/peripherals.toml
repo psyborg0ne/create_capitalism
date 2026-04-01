@@ -11,11 +11,11 @@
 		#Activates the "getPlayerPos" function of the Player Detector
 		enablePlayerPosFunction = true
 		#Returns a play in any function even when they are in spectator
-		showSpectators = true
+		showSpectators = false
 		#Adds more information to `getPlayerPos` of the Player Detector. Like rotation and dimension
 		morePlayerInformation = true
 		#If true, the player detector can observe players which aren't in the same dimension as the detector itself. `playerDetMaxRange` needs to be infinite(-1) for it to work.
-		chatBoxMultiDimensional = true
+		chatBoxMultiDimensional = false
 		#If true, add random error to `getPlayerPos` player position that varies based on how far the player is from the detector. Prevents getting the exact position of players far from the detector.
 		enablePlayerPosRandomError = false
 		#The maximum amount of error (in blocks) that can be applied to each axis of the player's position.
@@ -37,7 +37,7 @@
 
 	[Peripherals.NBT_Storage]
 		#Enable the nbt storage block or not
-		enableNBTStorage = true
+		enableNBTStorage = false
 		#Defines max nbt string length that can be stored in nbt storage
 		# Default: 1048576
 		# Range: > 0
@@ -45,7 +45,7 @@
 
 	[Peripherals.Chunky_Turtle]
 		#Enable the Chunky Turtle or not.
-		enableChunkyTurtle = true
+		enableChunkyTurtle = false
 		#Time in seconds, while loaded chunk can be consider as valid without touch
 		# Default: 600
 		# Range: > 60
@@ -87,7 +87,7 @@
 
 	[Peripherals.RS_Bridge]
 		#Enable the Rs Bridge or not.
-		enableRsBridge = true
+		enableRsBridge = false
 		#Power consumption per tick.
 		# Default: 10
 		# Range: > 0
@@ -107,7 +107,7 @@
 
 	[Peripherals.Redstone_Integrator]
 		#Enable the redstone integrator or not.
-		enableRedstoneIntegrator = true
+		enableRedstoneIntegrator = false
 
 	[Peripherals.Block_Reader]
 		#Enable the block reader or not.
@@ -119,11 +119,11 @@
 
 	[Peripherals.Colony_Integrator]
 		#Enable the colony integrator or not.
-		enableColonyIntegrator = true
+		enableColonyIntegrator = false
 
 	[Peripherals.Compass_Turtle]
 		#Enable the compass turtle or not.
-		enableCompassTurtle = true
+		enableCompassTurtle = false
 		#The maximum distance the compass can locate accurately with in each axis.
 		# Default: 3
 		# Range: 0 ~ 8

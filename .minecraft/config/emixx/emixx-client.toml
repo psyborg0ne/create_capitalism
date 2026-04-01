@@ -4,7 +4,4 @@
 
 [stackGroups]
 	enableStackGroups = true
-	disabledStackGroups = [
-		"c:raw_materials",
-		"minecraft:minecarts",
-		"c:buckets"]
+	disabledStackGroups = ["c:raw_materials", "minecraft:minecarts", "c:buckets", "computercraft:turtle_normal"]

@@ -14,11 +14,55 @@
     }
   ],
   "lookup_history": [
+    "item:computercraft:pocket_computer_advanced{\"computercraft:pocket_upgrade\":{id:\"computercraft:wireless_modem_advanced\"}}",
+    "item:computercraft:pocket_computer_advanced{\"computercraft:pocket_upgrade\":{id:\"computercraft:speaker\"}}",
+    "item:computercraft:pocket_computer_normal{\"computercraft:pocket_upgrade\":{id:\"computercraft:wireless_modem_normal\"}}",
+    "item:computercraft:pocket_computer_normal{\"computercraft:pocket_upgrade\":{id:\"computercraft:wireless_modem_advanced\"}}",
+    "item:computercraft:pocket_computer_normal{\"computercraft:pocket_upgrade\":{id:\"computercraft:speaker\"}}",
+    "item:computercraft:pocket_computer_advanced",
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:orange_dye",
+      "amount": 1000
+    },
+    "item:create_dragons_plus:orange_dye_bucket",
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:brown_dye",
+      "amount": 250
+    },
+    "item:minecraft:brown_dye",
+    "item:create_dragons_plus:black_dye_bucket",
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:pink_dye",
+      "amount": 0
+    },
+    {
+      "type": "jemi",
+      "uid": "createoreexcavation:ore_vein_type/quartz"
+    },
+    {
+      "type": "jemi",
+      "uid": "createoreexcavation:ore_vein_type/water"
+    },
+    "item:minecraft:emerald_block",
+    "item:create_factory_logistics:jar_packager",
+    {
+      "type": "item",
+      "id": "minecraft:granite",
+      "amount": 18
+    },
+    "item:sophisticatedbackpacks:backpack",
+    "item:sophisticatedbackpacks:gold_backpack",
+    "item:sophisticatedbackpacks:iron_backpack",
+    "item:sophisticatedbackpacks:copper_backpack",
+    "item:minecraft:chest",
+    "#item:c:chests/wooden",
     "item:create:andesite_alloy",
     "item:create:hand_crank",
     "item:create_connected:crank_wheel",
     "item:minecraft:string",
-    "item:sophisticatedbackpacks:backpack",
     "item:create:precision_mechanism",
     "item:minecraft:leather",
     "item:minecraft:sand",
@@ -268,6 +312,13 @@
     "item:minecraft:nether_star"
   ],
   "craft_history": [
+    "create:crafting/materials/andesite_alloy",
+    "minecraft:iron_nugget",
+    "minecraft:andesite",
+    "sophisticatedbackpacks:iron_backpack_from_copper",
+    "sophisticatedbackpacks:copper_backpack",
+    "sophisticatedbackpacks:backpack",
+    "minecraft:chest",
     "create:crafting/materials/experience_nugget_from_block",
     "create:crafting/kinetics/wrench",
     "minecraft:clay",
@@ -279,8 +330,6 @@
     "create:crafting/kinetics/belt_connector",
     "create:crafting/kinetics/millstone",
     "quark:tweaks/crafting/utility/better_stone_tools/axe",
-    "create:crafting/materials/andesite_alloy",
-    "minecraft:iron_nugget",
     "create:crafting/kinetics/large_cogwheel",
     "minecraft:dark_oak_planks",
     "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
@@ -305,7 +354,6 @@
     "minecraft:spruce_planks",
     "quark:tweaks/crafting/utility/misc/easy_sticks",
     "minecraft:spruce_door",
-    "minecraft:chest",
     "minecraft:wooden_pickaxe",
     "minecraft:crafting_table",
     "create_connected:crafting/kinetics/item_silo_from_conversion",
@@ -384,6 +432,328 @@
     "biome:minecraft:frozen_ocean",
     "biome:minecraft:frozen_peaks",
     "biome:minecraft:frozen_river",
-    "biome:quark:glimmering_weald"
+    "biome:quark:glimmering_weald",
+    "item:minecraft:light",
+    "item:minecraft:barrier",
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"quark:resilience\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:infested\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:oozing\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:turtle_master\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:water_breathing\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:healing\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:harming\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:regeneration\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:strength\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:luck\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:slow_falling\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:wind_charged\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:slowness\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:swiftness\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:fire_resistance\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:leaping\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:invisibility\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:night_vision\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:awkward\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:thick\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:mundane\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "nbt": "{\"create:potion_fluid_bottle_type\":\"regular\",\"minecraft:potion_contents\":{potion:\"minecraft:water\"}}",
+      "amount": 1000
+    },
+    {
+      "type": "jemi",
+      "uid": "appliedcreate:stress"
+    },
+    {
+      "type": "fluid",
+      "id": "createaddition:bioethanol",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "createaddition:seed_oil",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_enchantment_industry:experience",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "advanced_ae:quantum_infusion_source",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:lime_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:pink_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:milk",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sophisticatedcore:xp_still",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:potion",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:gray_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:light_gray_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:tea",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:honey",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:cyan_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:purple_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create:chocolate",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sliceanddice:fertilizer",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:blue_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:brown_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:white_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:orange_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:green_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:red_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:magenta_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:black_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:light_blue_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:water",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:yellow_dye",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "create_dragons_plus:dragon_breath",
+      "amount": 0
+    },
+    "item:create_dragons_plus:black_dye_bucket",
+    "item:create_dragons_plus:red_dye_bucket",
+    "item:create_dragons_plus:green_dye_bucket",
+    "item:create_dragons_plus:brown_dye_bucket",
+    "item:create_dragons_plus:blue_dye_bucket",
+    "item:create_dragons_plus:white_dye_bucket",
+    "item:create_dragons_plus:orange_dye_bucket",
+    "item:create_dragons_plus:magenta_dye_bucket",
+    "item:create_dragons_plus:light_blue_dye_bucket",
+    "item:create_dragons_plus:yellow_dye_bucket",
+    "item:create_dragons_plus:lime_dye_bucket",
+    "item:create_dragons_plus:pink_dye_bucket",
+    "item:create_dragons_plus:gray_dye_bucket",
+    "item:create_dragons_plus:light_gray_dye_bucket",
+    "item:create_dragons_plus:cyan_dye_bucket",
+    "item:create_dragons_plus:purple_dye_bucket"
   ]
 }

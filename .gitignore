@@ -62,3 +62,7 @@ usercache.json
 .minecraft/config/ae2webintegration/griddata.json
 .minecraft/config/ae2webintegration/webdata.json
 .minecraft/.gitignore
+
+# TEMP
+.minecraft/emi.json
+.minecraft/config/ftbchunks-client.snbt

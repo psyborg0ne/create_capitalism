@@ -19,7 +19,7 @@
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative;
+	index-source: registered;
 
 	/**
 	 * Which sidebar should be searched using the search bar.
@@ -131,7 +131,7 @@
 	/**
 	 * Where to show workstations in the recipe screen
 	 */
-	workstation-location: bottom;
+	workstation-location: left;
 
 	/**
 	 * Display cost per batch when hovering a recipe output
@@ -156,7 +156,7 @@
 	/**
 	 * Whether recipes should have a button to take a screenshot of the recipe.
 	 */
-	recipe-screenshot-button: false;
+	recipe-screenshot-button: true;
 
 	/**
 	 * The GUI scale at which recipe screenshots are saved. Use 0 to use the current
@@ -167,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: favorites, craft-history;
 
 	/**
 	 * The subpanels in the left sidebar

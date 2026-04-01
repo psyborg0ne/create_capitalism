@@ -1,0 +1,9 @@
+{
+  "id": "computercraft:turtle_advanced",
+  "type": "emixx:group",
+  "contents": [
+    "computercraft:turtle_advanced"
+  ],
+  "exclusions": [
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "computercraft:pocket_computer_normal",
+  "type": "emixx:group",
+  "contents": [
+    "computercraft:pocket_computer_normal"
+  ],
+  "exclusions": [
+  ]
+}

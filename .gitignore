@@ -66,3 +66,4 @@ usercache.json
 # TEMP
 .minecraft/emi.json
 .minecraft/config/ftbchunks-client.snbt
+.minecraft/config/embeddium-fingerprint.json

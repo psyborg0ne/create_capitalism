@@ -1,0 +1,9 @@
+{
+  "id": "ccreate_capitalism:numismatics_id_cards",
+  "type": "emixx:group",
+  "contents": [
+    "#numismatics:id_cards"
+  ],
+  "exclusions": [
+  ]
+}

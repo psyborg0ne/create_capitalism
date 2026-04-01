@@ -14,6 +14,10 @@
     }
   ],
   "lookup_history": [
+    "item:ae2:certus_quartz_sword",
+    "item:ae2:nether_quartz_sword",
+    "item:computercraft:turtle_normal{\"computercraft:right_turtle_upgrade\":{id:\"computercraft:speaker\"}}",
+    "item:computercraft:computer_command",
     "item:computercraft:pocket_computer_advanced{\"computercraft:pocket_upgrade\":{id:\"computercraft:wireless_modem_advanced\"}}",
     "item:computercraft:pocket_computer_advanced{\"computercraft:pocket_upgrade\":{id:\"computercraft:speaker\"}}",
     "item:computercraft:pocket_computer_normal{\"computercraft:pocket_upgrade\":{id:\"computercraft:wireless_modem_normal\"}}",
@@ -754,6 +758,14 @@
     "item:create_dragons_plus:gray_dye_bucket",
     "item:create_dragons_plus:light_gray_dye_bucket",
     "item:create_dragons_plus:cyan_dye_bucket",
-    "item:create_dragons_plus:purple_dye_bucket"
+    "item:create_dragons_plus:purple_dye_bucket",
+    "item:advancedperipherals:colony_integrator",
+    "item:computercraft:pocket_computer_normal{\"computercraft:pocket_upgrade\":{id:\"advancedperipherals:colony_pocket\"}}",
+    "item:computercraft:pocket_computer_advanced{\"computercraft:pocket_upgrade\":{id:\"advancedperipherals:colony_pocket\"}}",
+    "item:computercraft:computer_command",
+    "item:computercraft:turtle_normal{\"computercraft:right_turtle_upgrade\":{id:\"advancedperipherals:chunky_turtle\"}}",
+    "item:computercraft:turtle_normal{\"computercraft:right_turtle_upgrade\":{id:\"advancedperipherals:compass_turtle\"}}",
+    "item:computercraft:turtle_advanced{\"computercraft:right_turtle_upgrade\":{id:\"advancedperipherals:chunky_turtle\"}}",
+    "item:computercraft:turtle_advanced{\"computercraft:right_turtle_upgrade\":{id:\"advancedperipherals:compass_turtle\"}}"
   ]
 }
